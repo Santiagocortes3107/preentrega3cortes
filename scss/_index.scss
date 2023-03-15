@@ -1,0 +1,73 @@
+@use 'variables';
+
+/* reset estilos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    html {
+
+      font-size: 62.5%;
+    }
+
+      nav{
+
+        background-color: variables.$colorfondo;
+        font-size: variables.$size-title;
+        justify-content: space-evenly;
+        color: variables.$colortext;
+
+        .navbar-nav{ 
+
+            font-family: variables.$font-titulo;
+            font-size: variables.$size-subtitle;
+            justify-content: space-evenly;
+            color: variables.$colortext;
+        }
+
+        header {
+            
+            align-items: top;
+            border: variables.$size-subtitle;
+         }
+    }
+
+        body { 
+            height: 100vh;
+            width: 100vw;
+            background: variables.$colorfondo;
+            background-position: center top;
+            background-size: cover;
+
+
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+            main{ 
+                div{ 
+                    height: 100%;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .texto1 { 
+                        font-size: variables.$size-title;
+                        font-family: variables.$font-titulo;
+                        background-color: variables.$colorfondo;
+                        color: variables.$colortext;
+
+                        
+                        
+                    }
+                }
+            }
+            
+            .piedepag {
+                color: variables.$colortext;
+                font-size: 2rem;
+            }
+         }

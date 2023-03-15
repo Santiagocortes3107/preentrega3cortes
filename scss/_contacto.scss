@@ -1,0 +1,46 @@
+@use 'variables';
+
+.fondoform {
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: variables.$colortext;
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+    
+
+    .contacto {
+        font-size: variables.$size-title;
+        
+    }
+
+    .nunca {
+        font-size: 2rem;
+        color: wheat;
+    }
+
+    .client {
+        font-size: 3rem;
+    }
+
+    .pww { 
+        font-size: 3rem;
+    }
+
+    .asunt {
+        font-size: 2rem;
+    }
+
+    .enque {
+        font-size: 2rem;
+    }
+
+    .ingresotexto {
+        font-size: 2rem;
+    }
+
+    .enviar {
+        font-size: 2rem;
+    }
+}

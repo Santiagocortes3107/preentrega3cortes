@@ -1,0 +1,156 @@
+/* reset estilos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  font-size: 6rem;
+  justify-content: space-evenly;
+  color: white;
+}
+nav .navbar-nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  justify-content: space-evenly;
+  color: white;
+}
+nav header {
+  align-items: top;
+  border: 4rem;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  background-position: center top;
+  background-size: cover;
+}
+body img {
+  height: 100%;
+  width: 100%;
+}
+body main div {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+body main div .texto1 {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  color: white;
+}
+body .piedepag {
+  color: white;
+  font-size: 2rem;
+}
+
+.almacena {
+  font-size: 6rem;
+  background-color: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  color: white;
+  justify-content: center center;
+  font-family: "Roboto", sans-serif;
+}
+
+.fondoform {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+.fondoform .contacto {
+  font-size: 6rem;
+}
+.fondoform .nunca {
+  font-size: 2rem;
+  color: wheat;
+}
+.fondoform .client {
+  font-size: 3rem;
+}
+.fondoform .pww {
+  font-size: 3rem;
+}
+.fondoform .asunt {
+  font-size: 2rem;
+}
+.fondoform .enque {
+  font-size: 2rem;
+}
+.fondoform .ingresotexto {
+  font-size: 2rem;
+}
+.fondoform .enviar {
+  font-size: 2rem;
+}
+
+.nos {
+  background-color: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  font-size: 6rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.objetivo1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.principios1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.futuro1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.show {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.principios2 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.futuro2 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.reclog {
+  background-color: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  justify-content: center center;
+  color: white;
+}
+.reclog .titulo {
+  font-size: 6rem;
+  text-align: center;
+}
+.reclog .texto {
+  font-size: 2rem;
+}
+
+.h1t {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  background-color: linear-gradient(90deg, rgb(40, 83, 154) 0%, rgb(23, 56, 184) 50%, rgb(2, 6, 107) 100%);
+  color: white;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

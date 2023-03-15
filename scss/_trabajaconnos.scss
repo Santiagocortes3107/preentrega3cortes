@@ -1,0 +1,9 @@
+@use 'variables';
+
+.h1t {
+    font-size: variables.$size-title;
+    font-family: variables.$font-titulo;
+    background-color: variables.$colorfondo;
+    color: variables.$colortext;
+    justify-content: center;
+}

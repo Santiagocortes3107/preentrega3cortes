@@ -1,0 +1,9 @@
+@use 'variables';
+
+.almacena {
+    font-size: variables.$size-title;
+    background-color: variables.$colorfondo;
+    color: variables.$colortext;
+    justify-content: center center;
+    font-family: variables.$font-titulo;
+}

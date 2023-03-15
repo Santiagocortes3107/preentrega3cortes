@@ -1,0 +1,41 @@
+@use 'variables';
+
+.nos {
+    background-color: variables.$colorfondo;
+     font-size: variables.$size-title;
+     color: variables.$colortext;
+     font-family: variables.$font-titulo;
+    
+}
+
+.objetivo1 { 
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+}
+
+
+.principios1 { 
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+}
+
+.futuro1 { 
+    font-size: variables.$size-subtitle;
+    font-family: variables.$font-titulo;
+}
+
+.show {
+    font-size: 2rem;
+    font-family: variables.$font-titulo;
+}
+
+.principios2 {
+    font-size: 2rem;
+    font-family: variables.$font-titulo;
+}
+
+.futuro2 {
+    font-size: 2rem;
+    font-family: variables.$font-titulo;
+}
+

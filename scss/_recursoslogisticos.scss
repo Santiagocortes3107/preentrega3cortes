@@ -1,0 +1,18 @@
+
+@use 'variables';
+
+.reclog {
+
+    background-color: variables.$colorfondo;
+    justify-content: center center;
+    color: variables.$colortext;
+
+    .titulo {
+        font-size: variables.$size-title;
+        text-align: center;
+    }
+
+    .texto{
+        font-size: 2rem;
+    }
+}
